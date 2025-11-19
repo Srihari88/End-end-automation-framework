@@ -1,5 +1,3 @@
-
-
 # End-to-end automation framework (Playwright + TypeScript)
 
 A scalable and modular UI automation framework built using Playwright + TypeScript, targeting the Saucedemo sample application.
@@ -116,8 +114,7 @@ The repository includes a small set of screenshots and a demo video captured dur
 - Single test case run (screenshot): [OneTestCase.png](./screenshots/OneTestCase.png)
 - Terminal test report (screenshot): [TerminalTestReport.png](./screenshots/TerminalTestReport.png)
 
-Inline previews (click to open full file):
-
+![GiF Video](./screenshots/EndToEnd.gif)
 ![HTML report](./screenshots/HTML%20REPORT.png)
 
 ![One test case run](./screenshots/OneTestCase.png)
