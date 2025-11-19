@@ -1,7 +1,7 @@
 # End-to-end automation framework (Playwright + TypeScript)
 
 A scalable and modular UI automation framework built using Playwright + TypeScript, targeting the Saucedemo sample application.
-The framework follows POM (Page Object Model) principles and uses stable selectors `(data-test)`, with lightweight logging and clean test structuring.
+The framework follows POM (Page Object Model) principles and uses stable selectors `(data-test)`, with lightweight logging and clean test structuring. Full CI/CD End to end flow has been integrated with github and tests will running on github. 
 
 ---
 
@@ -45,9 +45,11 @@ tests/
   inventory.spec.ts     # Sorting tests (Low→High, High→Low)
   checkout.spec.ts      # Add to cart + checkout completion
 
-utils/                  # (If you add helpers later)
+utils/                  # (to add any util functions)
 playwright.config.ts    # Playwright test runner configuration
 package.json            # Dev dependencies & metadata
+
+screenshots/            # (Added screenshots)
 README.md
 ```
 
